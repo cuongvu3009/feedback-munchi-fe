@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 const DashboardResponses = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [feedbackLimit, setFeedbackLimit] = useState<number>(7);
   const navigate = useNavigate();
   const handleBtnClick = () => {

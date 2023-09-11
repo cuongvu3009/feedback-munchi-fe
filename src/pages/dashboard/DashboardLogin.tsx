@@ -5,7 +5,6 @@ import React, { useRef, useState } from "react";
 import { User } from "../../types/auth.types";
 import axios from "axios";
 import { useAuthenticate } from "../../hooks/useAuthenticate";
-import { useNavigate } from "react-router-dom";
 
 const API_BASE_URL = "https://munchi-merchant-dev-api-ydtudzlala-lz.a.run.app";
 
@@ -24,7 +23,6 @@ function App() {
     loading: false,
     error: null,
   });
-  const navigate = useNavigate();
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
