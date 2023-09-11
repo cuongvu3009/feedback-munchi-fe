@@ -34,9 +34,7 @@ const Responses = () => {
               key={item.emoji_service}
             >
               <p>{getEmojiLabel(item.emoji_service)}</p>
-              <p>
-                {item.tags_order.map((item) => item.replace(/["\[\]]/g, ""))}
-              </p>
+              <p>{item.tags_order.map((item) => item.replace(/["\]]/g, ""))}</p>
               <p>{moment(item.createdAt).fromNow()}</p>
             </div>
           );

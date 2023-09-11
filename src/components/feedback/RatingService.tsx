@@ -1,13 +1,8 @@
 import React, { useEffect, useState } from "react";
 
-import AwesomeSVG from "../../utils/emoji-svg/AwesomeSVG";
-import BadSVG from "../../utils/emoji-svg/BadSVG";
 import Emoji from "../shared/Emoji";
 import FeedbackComment from "./FeedbackComment";
-import GoodSVG from "../../utils/emoji-svg/GoodSVG";
-import OkeySVG from "../../utils/emoji-svg/OkeySVG";
 import TagsService from "./TagsService";
-import TerribleSVG from "../../utils/emoji-svg/TerribleSVG";
 import { ratingOptions } from "../../utils/ratingOptions";
 
 const RatingService: React.FC = () => {

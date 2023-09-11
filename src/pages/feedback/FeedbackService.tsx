@@ -1,13 +1,8 @@
 import "./feedback.css";
 
-import AwesomeSVG from "../../utils/emoji-svg/AwesomeSVG";
-import BadSVG from "../../utils/emoji-svg/BadSVG";
 import Button from "../../components/shared/Button";
-import GoodSVG from "../../utils/emoji-svg/GoodSVG";
 import Logo from "../../components/shared/Logo";
-import OkeySVG from "../../utils/emoji-svg/OkeySVG";
 import RatingService from "../../components/feedback/RatingService";
-import TerribleSVG from "../../utils/emoji-svg/TerribleSVG";
 import Title from "../../components/shared/Title";
 import TradeMark from "../../components/shared/TradeMark";
 import { useNavigate } from "react-router-dom";
