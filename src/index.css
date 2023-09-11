@@ -122,7 +122,7 @@ input[type="radio"]:disabled + label.unselected-button {
 
 [type="radio"]:checked ~ label {
   background: #fff;
-  color: #fff;
+  color: #ff6a95;
 }
 
 .tip {
